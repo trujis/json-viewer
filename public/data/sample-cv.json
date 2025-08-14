@@ -1,0 +1,112 @@
+{
+  "Skills": {
+    "Front End": {
+      "Mobile": {
+        "Technology": [
+          "Android Native",
+          "React Native"
+        ],
+        "Languages": [
+          "React Native",
+          "Kotlin",
+          "Java"
+        ]
+      },
+      "Web": {
+        "Languages": [
+          "Javascript",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "Framework": [
+          "React",
+          "NextJS",
+          "NestJS"
+        ]
+      }
+    },
+    "Back End": {
+      "DB": [
+        "PostgreSQL",
+        "MySQL",
+        "ElasticSearch",
+        "MongoDB"
+      ],
+      "Languages": [
+        "Node.js",
+        "Java",
+        "C#"
+      ],
+      "Framework": [
+        ".NET Core",
+        "NestJS"
+      ]
+    }
+  },
+  "Tools": [
+    "Git",
+    "Jira",
+    "Terraform",
+    "AWS",
+    "Kubernetes",
+    "Jenkins"
+  ],
+  "Experience": [
+    {
+      "Company": "Formación Ninja",
+      "Duration time": "2 years 4 months",
+      "Role": [
+        "Product",
+        "Tech Developer"
+      ],
+      "Skills": [
+        "NestJS, NextJS, Data Analyst"
+      ]
+    },
+    {
+      "Company": "LightenUp",
+      "Duration time": "1 year",
+      "Role": [
+        "Cofounder"
+      ],
+      "Skills": [
+        "AWS",
+        "React"
+      ]
+    },
+    {
+      "Company": "Prestalo",
+      "Duration time": "1 year 7 months",
+      "Role": [
+        "Team Lead",
+        "Full Stack Developer"
+      ],
+      "Skills": [
+        "NestJS, NextJS, Kubernetes, CI/CD"
+      ]
+    },
+    {
+      "Company": "Qontinuum Plus",
+      "Duration time": "1 year 2 months",
+      "Role": [
+        "Android Developer",
+        ".Net Developer"
+      ],
+      "Skills": [
+        "BLE, MySQL, Retrofit, NFC"
+      ]
+    },
+    {
+      "Company": "CSCC Centro Servicios Compartidos Computrabajo",
+      "Duration time": "3 years",
+      "Role": [
+        "Project Manager",
+        "Mobile Team Lead"
+      ],
+      "Skills": [
+        "Net Core, Android, Scrum"
+      ]
+    }
+  ]
+}
