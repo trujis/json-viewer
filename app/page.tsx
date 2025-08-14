@@ -16,6 +16,7 @@ import CustomEdge from "@/src/components/custom-edge"
 import { useNodeStore } from "@/src/components/store/node-store"
 import ErrorAlert from "@/src/components/error-alert"
 import LoadingOverlay from "@/src/components/loading-overlay"
+import { NodeOrientation } from "@/src/components/store/node-type"
 
 const nodeTypes: NodeTypes = {
   objectNode: ObjectNode,
@@ -68,7 +69,7 @@ export default function JsonFlowRenderer() {
 
       {!error && isLoading && <LoadingOverlay />}
 
-      {/* {!error && !isLoading && (
+      {!error && !isLoading && (
         <div className="absolute top-4 left-4 z-10 flex gap-2">
           <button
             onClick={switchOrientation}
@@ -80,7 +81,7 @@ export default function JsonFlowRenderer() {
               : "Horizontal"}
           </button>
         </div>
-      )} */}
+      )}
 
       <ReactFlow
         nodes={nodes}
